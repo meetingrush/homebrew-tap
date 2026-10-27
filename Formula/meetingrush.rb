@@ -1,8 +1,8 @@
 class Meetingrush < Formula
   desc "Full-screen meeting alerts with one-click join for macOS"
   homepage "https://github.com/meetingrush/meetingrush"
-  url "https://github.com/meetingrush/meetingrush/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "249f53855f6206c5097f85a85314c17413e419635d767f042ef7c95d3bde08da"
+  url "https://github.com/meetingrush/meetingrush/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "4245b0f77e6e32069c9fd576cb011c188975cd98def3357d796f444741680d62"
   license "GPL-3.0-or-later"
 
   depends_on macos: :sonoma
