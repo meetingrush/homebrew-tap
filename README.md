@@ -1,8 +1,10 @@
 # MeetingRush Homebrew tap
 
 ```sh
-brew install meetingrush/tap/meetingrush
+brew install --cask meetingrush/tap/meetingrush
 ```
 
-Homebrew builds [MeetingRush](https://github.com/meetingrush/meetingrush) from source with the Xcode Command Line Tools,
-so no signed download is involved. Update with `brew upgrade meetingrush` and remove with `brew uninstall meetingrush`.
+The cask installs [MeetingRush](https://github.com/meetingrush/meetingrush) into `/Applications` from its GitHub
+Release. Update with `brew upgrade --cask meetingrush` and remove with `brew uninstall --cask meetingrush`.
+
+MeetingRush used to be a formula here. To switch a Mac over, run `brew uninstall --formula meetingrush` first.
