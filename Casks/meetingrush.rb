@@ -1,6 +1,6 @@
 cask "meetingrush" do
   version "0.1.2"
-  sha256 "REPLACE_WITH_RELEASE_SHA256"
+  sha256 "fa44e62a240c9338156b741a58accdad874066e7606f296e02dd3e251f441bc6"
 
   url "https://github.com/meetingrush/meetingrush/releases/download/v#{version}/MeetingRush-#{version}.zip"
   name "MeetingRush"
@@ -23,7 +23,7 @@ cask "meetingrush" do
         args: [
           "--verify",
           "--strict",
-          "-R=anchor apple generic and certificate leaf[subject.OU] = \"REPLACE_WITH_TEAM_ID\"",
+          "-R=anchor apple generic and certificate leaf[subject.OU] = \"5F3K8H626Z\"",
           "{{appdir}}/MeetingRush.app",
         ]
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/MeetingRush.app"]
