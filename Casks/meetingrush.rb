@@ -1,6 +1,6 @@
 cask "meetingrush" do
-  version "0.1.2"
-  sha256 "fa44e62a240c9338156b741a58accdad874066e7606f296e02dd3e251f441bc6"
+  version "0.1.3"
+  sha256 "5ac715da85abc2c5b091043b7ba625effb51c293e412653d662904d3785148da"
 
   url "https://github.com/meetingrush/meetingrush/releases/download/v#{version}/MeetingRush-#{version}.zip"
   name "MeetingRush"
